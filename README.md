@@ -1,0 +1,10 @@
+# Gapminder
+
+Ler, escrever e manipular dados ou arquivos são tarefas bastante frequentes no dia a dia de um engenheiro de dados ou desenvolvedor de software. Em geral, muitos arquivos são codificados em formatos digitais específicos que sejam mais apropriados à sua finalidade final ou uso intermediário - como por exemplo .jpg ou bmp para imagens ou .mp3 para áudio, variando em termos de estrutura de dados e forma como os mesmos são lidos ou executados. No entanto, não é incomum haver a conversão (ou transformação) de arquivos de um certo formato em outros mais apropriados aos propósitos de desenvolvedores e engenheiros de dados, de forma que os mesmos possam ser melhor aproveitados em termos de visualização de dados ou tamanho de armazenamento, por exemplo. Ainda, é possível que tais arquivos possam estar estruturados seguindo uma certa determinação ou especificação quanto à sua organização (por exemplo, indicada no nome do arquivo), ou divididos em vários arquivos isolados separados, de modo que, ao juntá-los em um único arquivo, torne-se necessário uma adequação (ou adaptação) de sua dimensionalidade diante do tipo do arquivo esperado ou manipulado. 
+
+O processo de transformar dados é, às vezes, denominado “Data wrangling”, que reflete geralmente a intenção de transformar dados “brutos” de um certo formato a outro com vistas à atender variadas finalidades posteriores, como a análise ou a visualização de dados, práticas bastante comuns nas áreas de ciência e engenharia de dados, por exemplo [1]. Dependendo de como estes dados estão estruturados, também pode ser  interessante tratá-los como uma matriz (ou dataframe) para sua manipulação e subsequente aplicação ou aplicação [2]. 
+
+Neste sentido, este projeto consistiu na leitura de vários arquivos sequenciais de imagem representativos de dígitos de 0 a 9 - ou 200 exemplares de cada um dos dígitos, totalizando 2 mil exemplares, com subsequentes transformações de  4096 bits de informação em um dataframe (de dimensões 64x64) e tratamento dos dados para análises estatísticas e resultados gráficos acerca da distribuição destes dados nos arquivos. 
+
+
+
